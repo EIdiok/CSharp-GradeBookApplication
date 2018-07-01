@@ -116,7 +116,7 @@ namespace GradeBook.GradeBooks
                     gpa = 4;
                     break;
                 case 'B':
-                    gpa = 4;
+                    gpa = 3;
                     break;
                 case 'C':
                     gpa = 2;
