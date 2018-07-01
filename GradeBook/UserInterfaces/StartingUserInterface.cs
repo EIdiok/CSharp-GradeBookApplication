@@ -52,7 +52,7 @@ namespace GradeBook.UserInterfaces
             }
             else
             {
-                Console.WriteLine($"{type} is not a supported gradebook type. Please try again.");
+                Console.WriteLine($"{type} is not a supported type of gradebook, please try again.");
                 return;
             }
             Console.WriteLine($"Created gradebook {name}.");
@@ -81,7 +81,7 @@ namespace GradeBook.UserInterfaces
             Console.WriteLine("GradeBook accepts the following commands:");
             Console.WriteLine();
             Console.WriteLine("Create 'Name' - Creates a new gradebook where 'Name' is the name of the gradebook" +
-                              "and Type is the what type of grading is should use.");
+                              "and 'Type' is the what type of grading is should use.");
             Console.WriteLine();
             Console.WriteLine("Load 'Name' - Loads the gradebook with the provided 'Name'.");
             Console.WriteLine();
